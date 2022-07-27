@@ -1,0 +1,52 @@
+.paginador ul{
+    padding: 15px; 
+    list-style: none;
+    background: #FFF;
+    margin-top: 15PX;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-;
+    display: -o-flex;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.paginador a,.pageSelected{
+    color: #1956be;
+    border: 1px solid #ddd;
+    padding: 5px;
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    width: 35px;
+}
+.paginador a:hover{
+    background: #ddd;
+}
+.pageSelected{
+    color: #FFF;
+    background: #7caef3;
+    border: 1px solid #7caef3;
+}
+
+/*----*/
+.form_search{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    float: right;
+    background: initial;
+    padding: 10px;
+    border-radius: 10px;
+}
+.form_search .btn_search{
+    background: #1faac8;
+    color: #FFF;
+    page-break-after: 0 20px;
+    border: 0;
+    cursor: pointer;
+    margin-left: 10px;
+
+}

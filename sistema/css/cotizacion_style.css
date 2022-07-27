@@ -1,0 +1,71 @@
+.form_search_date{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+.form_search_date label{
+    margin: 0 10px;
+
+}
+.form_search_date input{
+    width: auto;
+
+}
+.form_search_date .btn_view{
+    padding: 10px;
+}
+.btn_view{
+    background-color: #1faac8;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 3px;
+    color: #fff;
+}
+.div_acciones{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+}
+.totalfactura{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+
+}
+.pagada, .anulada,.pendiente,.relizada,.porfacturar{
+    color: #0C0C0C;
+    background: #17B309;
+    text-align: center;
+    border-radius: 5px;
+    padding: 4px 15px;
+
+}
+.anulada{
+    background: #FA1403;
+}
+.relizada{
+    background: #EFDC07;
+}
+.pendiente{
+    background: #BFEB02;
+}
+
+.porfacturar{
+    background: #83EF0F;
+}
+.inactive{
+    background-color: #aaaaaa;
+    color: #ccc;
+    cursor: default;
+}

@@ -1,0 +1,65 @@
+.form_register{
+	width: 450px;
+	margin: auto;
+}
+.form_register h1{
+    color: #3c93b0;
+    font-size: 30pt;
+    
+}
+hr{
+	border: 0;
+	background: #CCC;
+	height: 1PX;
+	margin: 10PX 0;
+	display: block;
+}
+form{
+	background: #FFF;
+	margin: auto;
+	padding: 20px 50px;
+	border: 1px solid #d1d1d1;
+}
+label{
+	display: block;
+	font-size: 12pt;
+    font-family: "Gorhambook";
+    margin: 15px auto 5px auto;
+}
+input,select{
+    display: block;
+    width: 100%;
+    font-size: 11pt;
+    padding: 20px;
+    border: 1px solid #85929e;
+    border-radius: 5px;
+}
+
+.btn_save{
+    font-size: 12pt;
+    background: #12a4c6;
+    padding: 20px;
+    color: #FFF;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+    margin: 15px auto;
+    display: block;
+}
+.alert{
+    width: 100%;
+    background: #66e07d66;
+    border-radius: 6px;
+    margin: 20px auto;
+}
+.msg_error{
+    color: #e65656;
+}
+.msg_save{
+    color: #126e00;
+}
+.alert p{
+    padding: 10px;
+}
+
+
